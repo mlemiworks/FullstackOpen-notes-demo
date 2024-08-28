@@ -1,2 +1,1 @@
-# Fullstack-Open-Osa-3
-Osan 3 oma repositorio
+# Full-Stack-Osa3-Demo
