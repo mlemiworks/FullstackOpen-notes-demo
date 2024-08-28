@@ -8,13 +8,6 @@ app.use(express.static("dist"));
 app.use(express.json());
 app.use(cors());
 
-// ÄLÄ KOSKAAN TALLETA SALASANOJA GitHubiin!
-
-const noteSchema = new mongoose.Schema({
-  content: String,
-  important: Boolean,
-});
-
 app.get("/", (request, response) => {
   response.send("<h1>Hello world!</h1>");
 });
